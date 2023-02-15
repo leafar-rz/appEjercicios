@@ -25,3 +25,49 @@
 #container a {
   text-decoration: none;
 }
+
+#table1{
+  border: solid 1px black;
+  width: 60px;
+  border-bottom:solid 1px black;
+  padding-bottom: 10%;
+  
+
+}
+
+
+
+
+#table2{
+background-color: beige;
+width: 70%;
+height: 10%;
+border: solid 1px black;
+text-align: center;
+margin: auto;
+}
+
+#extra1{
+  height: 1cm;
+  color: white;
+}
+
+#redondo{
+  border:3px solid brown;
+  border-radius: 20px;
+  width: 80%;
+  height: 50%;
+  text-align: center;
+  margin: 0 auto;
+  font-size:larger;
+}
+
+#userfoto{
+  width: 30%;
+  height: 30%;
+  margin-left: 1cm;
+}
+
+ion-content.background{
+  --background: url("/assets/img/azulDifuminado.jpg") 0 0/100% 100% no-repeat;
+}

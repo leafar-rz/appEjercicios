@@ -1,0 +1,108 @@
+
+
+<ion-content class="background">
+   <!--<table id="encabezado">
+    <tr>
+      <th id="thEncabezado">-->
+       <!-- <ion-img class="imgHead" src="assets/img/azulDifuminado.jpg"></ion-img>-->
+       <!--<ion-img class="imgHead" src="assets/img/azulDifuminado.jpg"></ion-img>
+      </th>
+    </tr>
+  </table>
+-->
+<br><br><br><br>
+
+
+<div id="centradotabla">
+  <table id="tablaCentral">
+
+
+    <tr>
+      <th id="thEncabezadoTablaCentral" colspan="2">
+        
+        <h1 id="colorEtiqueta">REGISTRATION</h1>
+      </th>
+    </tr>
+  
+    <tr>
+      <th align="right" id="th1TablaCentro">
+        <ion-img id="imgTabla" aling="left" src="assets/img/user.png"></ion-img>
+      </th>
+  
+      <th id="th2TablaCentro">
+        <ion-item color="none" lines="none">
+          <ion-label position="floating">Username</ion-label>
+          <ion-input type="Text" ngModel User></ion-input>
+          <ion-note slot="helper">Enter a valid User</ion-note>
+          <ion-note slot="error">Invalid User</ion-note>
+        </ion-item>
+      </th>
+  
+      <tr>
+        <th align="right" id="th3TablaCentro">
+          <ion-img aling="left" src="assets/img/email.png" id="imgTabla"></ion-img>
+        </th>
+    
+        <th id="th3TablaCentro">
+          <ion-item color="none" lines="none">
+            <ion-label position="floating">Email</ion-label>
+            <ion-input type="email" ngModel email></ion-input>
+            <ion-note slot="helper">Enter a valid email</ion-note>
+            <ion-note slot="error">Invalid email</ion-note>
+          </ion-item>
+        </th>
+  
+        <tr>
+          <th align="right" id="th4TablaCentro">
+            <ion-img aling="left" src="assets/img/password.png" id="imgTabla"></ion-img>
+          </th>
+      
+          <th id="th5TablaCentro">
+            <ion-item  color="none" lines="none">
+              <ion-label position="floating">Password</ion-label>
+              <ion-input type="password" ngModel email></ion-input>
+              <ion-note slot="helper">Enter a valid password</ion-note>
+              <ion-note slot="error">Invalid password</ion-note>
+            </ion-item>
+          </th>
+        
+    </tr>
+  </table>
+</div>
+
+ 
+<table id="tablaCondiciones">
+  <tr>
+    <th>
+      <ion-item id="checkbox" >
+        <ion-checkbox style="background-color: transparent;"  slot="start"></ion-checkbox>
+        <ion-label style="background-color: transparent;" class="ion-text-wrap" style="font-size:x-small ;">I agree to the terms and conditions</ion-label>
+      </ion-item>
+    </th>
+  </tr>
+</table>
+
+<table id="tableContraseña">
+  <tr>
+    <th>
+      <ion-button id="boton1" [routerLink]="['/login']"  fill="solid">REGISTER</ion-button>
+    </th>
+  </tr>
+</table>
+        
+       
+
+</ion-content>
+
+ <!--
+<footer>
+  <table>
+    <tr>
+      <th>-->
+       <!-- <ion-img class="imgHead" src="assets/img/azulDifuminado.jpg"></ion-img>-->
+      <!-- <ion-img class="imgHead" src="assets/img/azulDifuminado.jpg"></ion-img>
+      </th>
+    </tr>
+  </table>
+</footer>
+-->
