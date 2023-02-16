@@ -41,7 +41,11 @@ const routes: Routes = [
     path: 'forgot-password',
     redirectTo: 'forgot-password',
     pathMatch: 'full'
+  },  {
+    path: 'codigo-autentificacion',
+    loadChildren: () => import('./codigo-autentificacion/codigo-autentificacion.module').then( m => m.CodigoAutentificacionPageModule)
   },
+
 ];
 
 @NgModule({
